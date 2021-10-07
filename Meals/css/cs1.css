@@ -1,0 +1,202 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#navigation {
+    display: flex;
+  
+    position:sticky;
+    align-items: center;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.logo{
+    margin:2px 13px;
+}
+#navigation::before{
+    content: "";
+    background-color: black;
+    position:absolute;
+   top:0px;
+   left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity:0.6;
+}
+
+.logo img {
+   
+    height: 40px;
+    margin: 3px 6px;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    
+    
+}
+.navbar a {
+    color: white;
+    display: block;
+    
+    padding:3px 24px;
+    text-decoration: none;
+    border-radius: 40px;
+}
+.navbar a:hover {
+    color:black;
+    background-color:white;
+}
+/* Section css */
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 454px;
+    justify-content: center;
+    color:white;
+    padding:5px 20px;
+}
+
+#home::before{
+    content: "";
+    background: url('../img/sk-uVPV_nV17Tw-unsplash.jpg') no-repeat center center/cover;
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:500px;
+    width:100%;
+    z-index: -1;
+    opacity:0.89;
+}
+.primary{
+    font-size: 2.2rem;
+    font-family: 'Balsamiq Sans', cursive;
+    padding:12px;
+    text-align: center;
+}
+#home p{
+    font-size:1.4rem;
+    text-align: center;
+    font-family: 'Trochut', cursive;
+}
+.btn{
+    padding:6px 23px;
+    background-color:brown;
+    border:2px solid red;
+    color:white;
+    margin:15px 2px;
+    font-size:1.2rem;
+    border-radius: 10px;
+    cursor:pointer;
+}
+/* services section */
+.services{
+    margin:34px;
+display: flex;
+}
+.box{
+    border:2px solid brown;
+    border-radius: 23px;
+    text-align: center;
+    padding:5px 41px;
+    background-color:#f3e7e7;
+    margin:0px 4px;
+}
+.box img{
+    height:70px;
+    display:block;
+    padding:3px 2px;
+    margin:auto;
+}
+.h-primary{
+    font-size:2.2rem;
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    padding:5px 12px;
+}
+box p{
+    font-size:1.4rem;
+    text-align: center;
+    font-family: 'Trochut', cursive;
+}
+/* Partners css/ */
+#partnership{
+   display: flex;
+   position:relative;
+   align-items:center;
+   height:352px;
+   flex-direction: column;
+}
+#partnership::before{
+    content:"";
+    background: url('../img/collection-take-away-foil-boxes-healthy-food-set-containers-meals-top-view-free-copy-space-164637874.jpg') no-repeat center center/cover;
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:352px;
+    width:100%;
+    z-index: -1;
+    opacity:0.4;
+}
+.service-partner{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin:34px 2px;
+}
+.partner{
+    padding:2px 40px;
+    
+}
+.partner img{
+    height: 150px;
+    
+}
+/* Contact css */
+#contact{
+   
+    position:relative;
+}
+#contact::before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:400px;
+    z-index:-1;
+    opacity:0.3;
+    background:url(../img/images.jpg) no-repeat center center/cover;
+}
+.contact-us{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+.contact-us form{
+    width:40%;
+}
+.contact-us input,
+.contact-us textarea{
+    width: 100%;
+    padding:0.5rem;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 0.8rem;
+    
+}
+.form-fill label{
+    font-size: 1rem;
+    font-family:'Balsamiq Sans', cursive ;
+}
+.foot{
+    text-align: center;
+    background-color: black;
+    color:white;
+    padding:2px 2px;
+}

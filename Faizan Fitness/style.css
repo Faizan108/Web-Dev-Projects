@@ -1,0 +1,113 @@
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: url('img/bg7.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:878px;
+}
+
+.logo {
+    
+
+    display: inline-block;
+    position: absolute;
+    left: 77px;
+    top: 8px;
+    text-align: center;
+
+}
+
+.nav {
+    display: block;
+    width: 37%;
+    padding: 3px 5px;
+    position: absolute;
+    left: 30%;
+    top: 15px;
+    font-size: 20px;
+    border-radius: 55px;
+
+}
+
+.search {
+    display: inline-block;
+    position: absolute;
+    right: 42px;
+    top: 37px;
+
+}
+
+.logo img {
+    width: 152px;
+    filter: invert(100%);
+}
+
+.logo div {
+    color: white;
+}
+
+.nav ul {
+    overflow: auto;
+}
+
+.nav li {
+    font-family: fantasy;
+
+    float: left;
+    padding: 4px 5px;
+    margin: 2px 18px;
+    list-style: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav li a:hover {
+    color: rgb(138, 211, 180);
+    text-decoration:underline;
+}
+
+.btn {
+    margin: 5px 8px;
+    padding: 5px 6px;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   color:white;
+   background-color:transparent;
+    cursor: pointer;
+    border:2px solid grey;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    color: rgb(208, 138, 211);
+    background-color:black;
+}
+
+.container {
+    border:2px solid white;
+    position: relative;
+    top:200px;
+    left:138px;
+    display:block;
+    width: 40%;
+    text-align: center;
+}
+.form-group input{
+margin:2px 2px;
+padding:2px 2px;
+width:326px;
+text-align: center;
+border-radius: 5px;
+font-size:16px;
+font-family: fantasy;
+}
+.container button{
+
+width:330px;
+margin:8px 3px;
+}
